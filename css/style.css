@@ -556,7 +556,19 @@
 					border: 10px solid;
 					border-color: white;
 				}
-
+        .wrapper.style6 {
+            background: #fff;
+            text-align: center;
+        }
+        .wrapper.style6 .container {
+            padding-left: 3em;
+            padding-right: 3em;
+        }
+        .wrapper.style5 .image {
+				display: block;
+				margin: 0em auto 2em auto;
+			}
+                       
 /* Header */
 
 	#header {
