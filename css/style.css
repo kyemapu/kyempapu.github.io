@@ -372,7 +372,7 @@
         -webkit-columns: 100px 2; /* Chrome, Safari, Opera */
         -moz-columns: 100px 2; /* Firefox */
         columns: 100px 2;
-        margin-left: 8em;
+        margin-left: 6em;
     }
 /* Tables */
 
