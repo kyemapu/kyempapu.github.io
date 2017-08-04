@@ -609,6 +609,7 @@ video {
 		text-align: right;
 	}
 
+
 	#logo {
 		line-height: 2em;
 		letter-spacing: 2px;
@@ -633,6 +634,7 @@ video {
 		right: 0;
 	}
 
+
 		#nav > ul {
 			margin: 0;
 		}
@@ -654,12 +656,20 @@ video {
 					font-size: 1em;
 				}
 
+                #nav > ul > li a:hover {
+					color: green;
+				}
+
 				#nav > ul > li:first-child {
 					margin-left: 0;
 				}
 
 				#nav > ul > li.active a {
 					color: white;
+				}
+
+                #nav > ul > li.active a:hover {
+					color: green;
 				}
 
 				#nav > ul > li > ul {
