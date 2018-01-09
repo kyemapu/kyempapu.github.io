@@ -74,7 +74,7 @@
 	}
 
 	h3 {
-		font-size: 1.25em;
+		font-size: 1.5em;
 	}
 
     h5 {
@@ -517,7 +517,7 @@ video {
 					line-height: 1.4em;
 					text-transform: uppercase;
 					font-size: 1.8em;
-					font-weight: 400;
+					font-weight: 600;
 				}
 
 				.wrapper.style2 .major .byline {
@@ -533,8 +533,12 @@ video {
 				letter-spacing: 1px;
 				line-height: 1.4em;
 				text-transform: uppercase;
-				font-size: 1.6em;
-				font-weight: 400;
+				font-weight: 600;
+                font-size: 2em;
+			}
+
+            .wrapper.style2 p {
+				font-size: 1.2em;
 			}
 
 		.wrapper.style3 {
@@ -555,6 +559,12 @@ video {
 
 		.wrapper.style4 {
 			background: white;
+		}
+
+        .wrapper.style4 .logos .image{
+            display: block;
+			max-width: 200px;
+            margin: 0em auto 1em auto;
 		}
 
 		.wrapper.style5 {
@@ -582,9 +592,9 @@ video {
             padding-left: 3em;
             padding-right: 3em;
         }
-        .wrapper.style5 .image {
+        .wrapper.style6 .container #volunteerButton {
 				display: block;
-				margin: 0em auto 2em auto;
+				margin: 3em auto 2em auto;
 			}
                        
 /* Header */
@@ -644,6 +654,7 @@ video {
 				display: inline-block;
 				margin-left: 0.5em;
 				padding: 0 0.5em;
+                font-weight: 400;
 			}
 
 				#nav > ul > li a {
@@ -657,7 +668,7 @@ video {
 				}
 
                 #nav > ul > li a:hover {
-					color: green;
+					color: #ff9900;
 				}
 
 				#nav > ul > li:first-child {
@@ -669,7 +680,7 @@ video {
 				}
 
                 #nav > ul > li.active a:hover {
-					color: green;
+					color: #ff9900;
 				}
 
 				#nav > ul > li > ul {
